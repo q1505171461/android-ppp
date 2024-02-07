@@ -1,0 +1,33 @@
+cmake_minimum_required(VERSION 3.22.1)
+
+
+project("fortest")
+
+
+add_library(${CMAKE_PROJECT_NAME} SHARED
+
+    fortest.cpp main.cpp)
+
+
+#------------------------------------------
+add_subdirectory(./IO/)
+add_subdirectory(./SDK/)
+
+include_directories(./IO/)
+include_directories(./SDK/)
+add_library(io_kpl SHARED IMPORTED)
+set_target_properties(io_kpl PROPERTIES IMPORTED_LOCATION ${CMAKE_SOURCE_DIR}/build/${ANDROID_ABI}/libKPL_IO.so)
+add_library(sdk_kpl SHARED IMPORTED)
+set_target_properties(sdk_kpl PROPERTIES IMPORTED_LOCATION ${CMAKE_SOURCE_DIR}/build/${ANDROID_ABI}/libKPL_SDK.so)
+#-------------------------------------------
+
+
+target_link_libraries(${CMAKE_PROJECT_NAME}
+    io_kpl
+    sdk_kpl
+    android
+    log)
+
+
+
+

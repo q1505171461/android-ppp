@@ -1,0 +1,9 @@
+/home/k/AndroidStudioProjects/ForTest/app/src/main/cpp/CMakeFiles/fortest.dir
+/home/k/AndroidStudioProjects/ForTest/app/src/main/cpp/CMakeFiles/edit_cache.dir
+/home/k/AndroidStudioProjects/ForTest/app/src/main/cpp/CMakeFiles/rebuild_cache.dir
+/home/k/AndroidStudioProjects/ForTest/app/src/main/cpp/IO/CMakeFiles/KPL_IO.dir
+/home/k/AndroidStudioProjects/ForTest/app/src/main/cpp/IO/CMakeFiles/edit_cache.dir
+/home/k/AndroidStudioProjects/ForTest/app/src/main/cpp/IO/CMakeFiles/rebuild_cache.dir
+/home/k/AndroidStudioProjects/ForTest/app/src/main/cpp/SDK/CMakeFiles/KPL_SDK.dir
+/home/k/AndroidStudioProjects/ForTest/app/src/main/cpp/SDK/CMakeFiles/edit_cache.dir
+/home/k/AndroidStudioProjects/ForTest/app/src/main/cpp/SDK/CMakeFiles/rebuild_cache.dir

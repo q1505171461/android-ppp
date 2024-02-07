@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libfortest.so -o libfortest.so CMakeFiles/fortest.dir/fortest.cpp.o  -Wl,-rpath,/home/k/AndroidStudioProjects/ForTest/app/src/main/cpp/build build//libKPL_IO.so build//libKPL_SDK.so -landroid -llog 
